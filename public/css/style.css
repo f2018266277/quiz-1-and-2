@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    position: relative;
+    width: 100%;
+    padding: 10px 14px;
+    background-color: #222;
+    color: #fff;
+}
+
+nav .a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 14px;
+}
+
+nav .a:hover{
+    color: #ddd;
+}
+
+.heading{
+    color: #eee;
+    font-size: 1.2rem;
+    margin-right: 14px;
+}
+
+main{
+    padding: 30px;
+}
+
+main h1{
+    line-height: 2;
+}
+
+main .button{
+    padding: 10px 14px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background-color: dodgerblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main .post{
+    position: relative;
+    width: calc(50% - 10px - 60px);
+    display: inline-block;
+    margin: 5px;
+}
+
+main .post *{
+    width: 100%;
+    padding: 10px 0;
+}
+
+main .post .heading{
+    color: #222;
+    font-weight: bold;
+}
+
+main .post .details p{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+main a{
+    color: dodgerblue;
+}
+
+main form *{
+    display: block;
+}
+
+main form input,
+main form textarea{
+    padding: 10px 14px;
+    margin-bottom: 10px;
+}
